@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Permanent+Marker&display=swap');
+header, footer{
+    background-color: hsl(245, 35%, 21%);
+    /* align text to center */
+    text-align: center;
+    /* add top and bottom padding */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* change text color */
+    color: rgb(201, 195, 255);
+}
+
+.img{border: 5px solid #777ba7;
+border-radius: 40px;
+
+}
+
+body{
+    background: #d6d8f0;
+background: linear-gradient(187deg, rgba(77, 48, 166, 1) 0%, rgba(87, 162, 199, 1) 100%);
+background-image: url("/images/eb18c2a1fac7f3c2fafb63b6b0b5a70b.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    /* remove default padding and margin */
+padding: 0%;
+margin: 0%;
+
+    /* change background color */
+
+}
+
+/* classes are reusable and can be added to many html tags */
+.bg-dark{
+    background-color: rgb(29, 19, 51);
+    border: 8px solid #1c192c;
+    border-radius: 40px;
+}
+
+.bg-grey{
+    background-color: #5e5488;
+    border: 8px solid #463f66;
+    border-radius: 40px;
+}
+
+section{
+
+    /* max-width */
+max-width: 960px;
+/* centering the whole section */
+margin: auto;
+/* white text */
+color: bisque;
+/* add space inside section */
+padding: 10px;
+/* add space after section */
+margin-bottom: 20px;
+/* drop shadow */
+-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+/* stop content from overflowing */
+overflow: hidden;
+}
+/* float */
+/* only images insinde sections */
+section img{
+    float: left;
+    margin-right: 20px;
+}
+
+/* ***********************************nav bar******************************* */
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #504f5c;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: rgb(217, 208, 255);
+  text-align: center;
+  /* top, right, bottom, left */
+  /* t&b, r&l */
+  padding: 14px 16px;
+  /* remove the underline from links */
+  text-decoration: none;
+}
+ nav ul li a:hover {
+  background-color: #221a46;
+}
+
+nav{
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+}
+
+/* *************style our regular link************************ */
+
+a{
+    color: rgb(255, 230, 194);
+}
+a:hover{
+    color: rgb(134, 121, 189);
+    text-decoration: none;
+}
+
+.container{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+h1{
+      font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+   font-family: "Libre Caslon Condensed", serif;
+}
+hr{
+    height:2px; border:none; background-color:rgb(133, 116, 173);
+}
