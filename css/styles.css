@@ -1,0 +1,116 @@
+     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3efdf;
+    color: #403b29;
+    
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.img{border: 5px solid #777ba7;
+border-radius: 40px;
+}
+
+nav a {
+    color: #403b29;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.hero {
+    background-image: url("eveningsun.jpg");
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 120px 20px;
+    }
+
+.hero h1 {
+    font-size: 80px;
+    letter-spacing: 10px;
+}
+
+.button {
+    background-color: #f3efdf;
+    color: #403b29;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#home {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home img {
+    width: 100px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+#photos {
+    background-color: #756638;
+    color: white;
+    padding: 50px;
+}
+
+.photos img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#about {
+    text-align: center;
+    padding: 50px;
+}
+
+.about img {
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ---------------fancy link?-------------- */
+a{
+    color: rgb(255, 230, 194);
+}
+a:hover{
+    color: rgb(112, 97, 82);
+    text-decoration: none;
+}
+
+a{
+    color: rgb(255, 230, 194);
+}
+a:hover{
+    color: rgb(184, 189, 121);
+    text-decoration: none;
+}
+
+
+
+
+/* ---------footer----- */
+footer {
+    background-color: #29291c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
