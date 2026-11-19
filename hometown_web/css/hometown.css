@@ -1,0 +1,34 @@
+:root {
+  --bs-primary:rgb(58, 12, 12);
+  --bs-primary-rgb:58, 12, 12
+}
+i{
+  font-size: 1rem;
+  margin: auto 10px;
+}
+header{
+    min-height: 90vh;
+  background-size: cover;
+}
+#homeHeader{
+background-image: url(../images/header.jpg);
+}
+#geoHeader{
+  background-image: url(../images/oldheader.jpg);
+}
+
+#PeopleHeader{
+  background-image: url(../images/image7.jpg);
+}
+
+#EcoHeader{
+  background-image: url(../images/people3.jpg);
+}
+
+#AttractHeader{
+  background-image: url(../images/fireworks.webp);
+}
+
+#RefHeader{
+  background-image: url(../images/old4.jpg);
+}
